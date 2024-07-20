@@ -8,6 +8,21 @@ body {
     background: linear-gradient(135deg, #153677, #4e085f);
 }
 
+header {
+    position: absolute;
+    left: 580px;
+    top: 0;
+    z-index: 10;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+}
+
+header img {
+    height: 50px;
+    width: 50px;
+}
+
 .box {
     width: 100%;
     min-height: 100vh;
