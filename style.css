@@ -9,7 +9,9 @@ body {
 }
 
 header {
-    position: absolute;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
     color: white;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 30px;
@@ -31,15 +33,21 @@ header img {
 }
 
 .box {
-    position: absolute;
-    top: 20px;
-    left: 600px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
 
 }
 
-.btn {
+.box {
     position: absolute;
-    left: 158px;
+    left: 550px;
+}
+
+.btn {
+    position: relative;
+    left: 150px;
 }
 
 #btn1 {
