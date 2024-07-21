@@ -18,6 +18,7 @@ async function fetchdata() {
       author.innerText="Author:\u00A0"+ myobj.data.author;
       sub.innerText="Subreddit:\u00A0"+ myobj.data.subreddit;
       img.src = myobj.data.url; 
+      img.alt=myobj.data.title
 
 
      

@@ -10,9 +10,6 @@ body {
 
 header {
     position: absolute;
-    left: 580px;
-    top: 0;
-    z-index: 10;
     color: white;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 30px;
@@ -23,47 +20,37 @@ header img {
     width: 50px;
 }
 
-.box {
+.container {
     width: 100%;
     min-height: 100vh;
     background: linear-gradient(135deg, #153677, #4e085f);
-    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    position: relative;
 }
 
-.box #btn1 {
+.box {
     position: absolute;
-    bottom: 0px;
-    left: 585px;
-    margin: 50px;
+    top: 20px;
+    left: 600px;
+
+}
+
+.btn {
+    position: absolute;
+    left: 158px;
+}
+
+#btn1 {
     width: 100px;
     height: 35px;
     background-color: rgba(34, 156, 190, 0.668);
 }
 
-.imgcon {
-    position: absolute;
-    top: 50px;
-    left: 500px;
-}
-
-#author {
-    position: absolute;
-    top: 160px;
-    z-index: 10;
+.info h1 {
     color: white;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 30px;
 }
-
-#sub {
-    position: absolute;
-    top: 205px;
-    z-index: 10;
-    color: white;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 30px;
-}
-
 
 .imgcon .img {
     margin: 10px;
